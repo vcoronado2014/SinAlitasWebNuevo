@@ -1,0 +1,8 @@
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Negocio\bin\Release\SinAlitas.Admin.Negocio.dll
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Negocio\bin\Release\SinAlitas.Admin.Negocio.pdb
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Negocio\bin\Release\SinAlitas.Admin.Entidad.dll
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Negocio\bin\Release\VCFramework.Negocio.Factory.dll
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Negocio\bin\Release\SinAlitas.Admin.Entidad.pdb
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Negocio\obj\Release\SinAlitas.Admin.Negocio.csprojResolveAssemblyReference.cache
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Negocio\obj\Release\SinAlitas.Admin.Negocio.dll
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Negocio\obj\Release\SinAlitas.Admin.Negocio.pdb

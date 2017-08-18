@@ -1,0 +1,5 @@
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Entidad\bin\Release\SinAlitas.Admin.Entidad.dll
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Entidad\bin\Release\SinAlitas.Admin.Entidad.pdb
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Entidad\obj\Release\SinAlitas.Admin.Entidad.csprojResolveAssemblyReference.cache
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Entidad\obj\Release\SinAlitas.Admin.Entidad.dll
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Entidad\obj\Release\SinAlitas.Admin.Entidad.pdb

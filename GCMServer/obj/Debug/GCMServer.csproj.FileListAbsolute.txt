@@ -1,0 +1,12 @@
+C:\SinAlitas.Admin.Web\GCMServer\bin\GCMServer.dll.config
+C:\SinAlitas.Admin.Web\GCMServer\bin\GCMServer.dll
+C:\SinAlitas.Admin.Web\GCMServer\bin\GCMServer.pdb
+C:\SinAlitas.Admin.Web\GCMServer\bin\Newtonsoft.Json.dll
+C:\SinAlitas.Admin.Web\GCMServer\bin\SinAlitas.Admin.Entidad.dll
+C:\SinAlitas.Admin.Web\GCMServer\bin\SinAlitas.Admin.Negocio.dll
+C:\SinAlitas.Admin.Web\GCMServer\bin\VCFramework.Negocio.Factory.dll
+C:\SinAlitas.Admin.Web\GCMServer\bin\SinAlitas.Admin.Entidad.pdb
+C:\SinAlitas.Admin.Web\GCMServer\bin\SinAlitas.Admin.Negocio.pdb
+C:\SinAlitas.Admin.Web\GCMServer\obj\Debug\GCMServer.csprojResolveAssemblyReference.cache
+C:\SinAlitas.Admin.Web\GCMServer\obj\Debug\GCMServer.dll
+C:\SinAlitas.Admin.Web\GCMServer\obj\Debug\GCMServer.pdb

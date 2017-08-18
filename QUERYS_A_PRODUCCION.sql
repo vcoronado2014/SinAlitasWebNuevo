@@ -1,0 +1,391 @@
+--nuevos script para sin alitas
+TRUNCATE TABLE AGP_AGENDA_PROFESOR
+GO
+TRUNCATE TABLE ACC_ACEPTA_CONDICIONES
+GO
+TRUNCATE TABLE CAL_CALIFICACIONES_PROFESOR
+GO
+TRUNCATE TABLE CLIE_CLIENTE
+GO
+TRUNCATE TABLE CPO_CUPO
+GO
+TRUNCATE TABLE FIA_FICHA_ALUMNO
+GO
+TRUNCATE TABLE NTF_NOTIFICACION_CLIENTE
+GO
+TRUNCATE TABLE OBP_OBSERVACIONES_PROFESOR
+GO
+TRUNCATE TABLE PCO_PRODUCTO_CODIGO
+GO
+TRUNCATE TABLE PROF_PROFESOR
+GO
+
+INSERT INTO [dbo].[COM_COMUNA]
+           ([REG_ID]
+           ,[NOMBRE]
+           ,[ELIMINADO])
+     VALUES
+           (13
+           ,'Chicureo'
+           ,0)
+GO
+
+
+INSERT INTO [dbo].[PROF_PROFESOR]
+           ([RUT]
+           ,[NOMBRES]
+           ,[PRIMER_APELLIDO]
+           ,[SEGUNDO_APELLIDO]
+           ,[FOTOGRAFIA]
+           ,[CODIGO]
+           ,[PAI_ID]
+           ,[REG_ID]
+           ,[COM_ID]
+           ,[DIRECCION]
+           ,[SEXO]
+           ,[FECHA_NACIMIENTO]
+           ,[NOMBRE_USUARIO]
+           ,[PASSWORD]
+           ,[ACTIVO]
+           ,[ELIMINADO]
+           ,[TELEFONOS_CONTACTO]
+           ,[BANCO]
+           ,[TIPO_CUENTA]
+           ,[NUMERO_CUENTA]
+           ,[EMAIL]
+           ,[NOD_ID]
+           ,[COM_ID_ASIGNADA]
+           ,[ROL_ID])
+     VALUES
+           ('18458938-9'
+           ,'Daniel'
+           ,'Bernal'
+           ,''
+           ,''
+           ,''
+           ,1
+           ,13
+           ,9
+           ,'Jose Miguel Carrera, 4310 departamento 1815'
+           ,'Masculino'
+           ,'03-09-1993'
+           ,'18458938-9'
+           ,'18458938-9'
+           ,1
+           ,0
+           ,'993305800'
+           ,''
+           ,0
+           ,''
+           ,'profesor.danielbg@gamil.com'
+           ,1
+           ,'298,299,348'
+           ,3)
+GO
+INSERT INTO [dbo].[PROF_PROFESOR]
+           ([RUT]
+           ,[NOMBRES]
+           ,[PRIMER_APELLIDO]
+           ,[SEGUNDO_APELLIDO]
+           ,[FOTOGRAFIA]
+           ,[CODIGO]
+           ,[PAI_ID]
+           ,[REG_ID]
+           ,[COM_ID]
+           ,[DIRECCION]
+           ,[SEXO]
+           ,[FECHA_NACIMIENTO]
+           ,[NOMBRE_USUARIO]
+           ,[PASSWORD]
+           ,[ACTIVO]
+           ,[ELIMINADO]
+           ,[TELEFONOS_CONTACTO]
+           ,[BANCO]
+           ,[TIPO_CUENTA]
+           ,[NUMERO_CUENTA]
+           ,[EMAIL]
+           ,[NOD_ID]
+           ,[COM_ID_ASIGNADA]
+           ,[ROL_ID])
+     VALUES
+           ('16235982-7'
+           ,'Amanda'
+           ,'Valenzuela'
+           ,''
+           ,''
+           ,''
+           ,1
+           ,13
+           ,6
+           ,'Roberto Espinoza, 1008, Santiago'
+           ,'Femenino'
+           ,'06-11-1989'
+           ,'16235982-7'
+           ,'16235982-7'
+           ,1
+           ,0
+           ,'979383502'
+           ,''
+           ,0
+           ,''
+           ,'amandavalenzuelat@gmail.com'
+           ,1
+           ,'2,12,13,14'
+           ,3)
+GO
+INSERT INTO [dbo].[PROF_PROFESOR]
+           ([RUT]
+           ,[NOMBRES]
+           ,[PRIMER_APELLIDO]
+           ,[SEGUNDO_APELLIDO]
+           ,[FOTOGRAFIA]
+           ,[CODIGO]
+           ,[PAI_ID]
+           ,[REG_ID]
+           ,[COM_ID]
+           ,[DIRECCION]
+           ,[SEXO]
+           ,[FECHA_NACIMIENTO]
+           ,[NOMBRE_USUARIO]
+           ,[PASSWORD]
+           ,[ACTIVO]
+           ,[ELIMINADO]
+           ,[TELEFONOS_CONTACTO]
+           ,[BANCO]
+           ,[TIPO_CUENTA]
+           ,[NUMERO_CUENTA]
+           ,[EMAIL]
+           ,[NOD_ID]
+           ,[COM_ID_ASIGNADA]
+           ,[ROL_ID])
+     VALUES
+           ('17967816-0'
+           ,'Martin'
+           ,'Ramirez'
+           ,''
+           ,''
+           ,''
+           ,1
+           ,13
+           ,33
+           ,'Pasaje El Pinar, 249, La Florida'
+           ,'Masculino'
+           ,'11-15-1991'
+           ,'17967816-0'
+           ,'17967816-0'
+           ,1
+           ,0
+           ,'991385554'
+           ,''
+           ,0
+           ,''
+           ,'martin__ramirez@hotmail.com'
+           ,1
+           ,'2,12,13,14'
+           ,3)
+GO
+INSERT INTO [dbo].[PROF_PROFESOR]
+           ([RUT]
+           ,[NOMBRES]
+           ,[PRIMER_APELLIDO]
+           ,[SEGUNDO_APELLIDO]
+           ,[FOTOGRAFIA]
+           ,[CODIGO]
+           ,[PAI_ID]
+           ,[REG_ID]
+           ,[COM_ID]
+           ,[DIRECCION]
+           ,[SEXO]
+           ,[FECHA_NACIMIENTO]
+           ,[NOMBRE_USUARIO]
+           ,[PASSWORD]
+           ,[ACTIVO]
+           ,[ELIMINADO]
+           ,[TELEFONOS_CONTACTO]
+           ,[BANCO]
+           ,[TIPO_CUENTA]
+           ,[NUMERO_CUENTA]
+           ,[EMAIL]
+           ,[NOD_ID]
+           ,[COM_ID_ASIGNADA]
+           ,[ROL_ID])
+     VALUES
+           ('15919354-3'
+           ,'Paula'
+           ,'Escobar'
+           ,''
+           ,''
+           ,''
+           ,1
+           ,13
+           ,304
+           ,'El Almendral, 358, San Bernardo'
+           ,'Femenino'
+           ,'02-07-1985'
+           ,'15919354-3'
+           ,'15919354-3'
+           ,1
+           ,0
+           ,'982126588'
+           ,''
+           ,0
+           ,''
+           ,'pola.escobar@gmail.com'
+           ,1
+           ,'2,12,13,14'
+           ,3)
+GO
+INSERT INTO [dbo].[PROF_PROFESOR]
+           ([RUT]
+           ,[NOMBRES]
+           ,[PRIMER_APELLIDO]
+           ,[SEGUNDO_APELLIDO]
+           ,[FOTOGRAFIA]
+           ,[CODIGO]
+           ,[PAI_ID]
+           ,[REG_ID]
+           ,[COM_ID]
+           ,[DIRECCION]
+           ,[SEXO]
+           ,[FECHA_NACIMIENTO]
+           ,[NOMBRE_USUARIO]
+           ,[PASSWORD]
+           ,[ACTIVO]
+           ,[ELIMINADO]
+           ,[TELEFONOS_CONTACTO]
+           ,[BANCO]
+           ,[TIPO_CUENTA]
+           ,[NUMERO_CUENTA]
+           ,[EMAIL]
+           ,[NOD_ID]
+           ,[COM_ID_ASIGNADA]
+           ,[ROL_ID])
+     VALUES
+           ('17419440-8'
+           ,'Manuel'
+           ,'Cancino'
+           ,''
+           ,''
+           ,''
+           ,1
+           ,13
+           ,301
+           ,'Gabriela Oriente, 01704, Puente Alto'
+           ,'Masculino'
+           ,'04-25-1990'
+           ,'17419440-8'
+           ,'17419440-8'
+           ,1
+           ,0
+           ,'956588844'
+           ,''
+           ,0
+           ,''
+           ,'manuelcancino.pfchile@gmail.com'
+           ,1
+           ,'11,15,16,17,303,301,33'
+           ,3)
+GO
+INSERT INTO [dbo].[PROF_PROFESOR]
+           ([RUT]
+           ,[NOMBRES]
+           ,[PRIMER_APELLIDO]
+           ,[SEGUNDO_APELLIDO]
+           ,[FOTOGRAFIA]
+           ,[CODIGO]
+           ,[PAI_ID]
+           ,[REG_ID]
+           ,[COM_ID]
+           ,[DIRECCION]
+           ,[SEXO]
+           ,[FECHA_NACIMIENTO]
+           ,[NOMBRE_USUARIO]
+           ,[PASSWORD]
+           ,[ACTIVO]
+           ,[ELIMINADO]
+           ,[TELEFONOS_CONTACTO]
+           ,[BANCO]
+           ,[TIPO_CUENTA]
+           ,[NUMERO_CUENTA]
+           ,[EMAIL]
+           ,[NOD_ID]
+           ,[COM_ID_ASIGNADA]
+           ,[ROL_ID])
+     VALUES
+           ('15363876-4'
+           ,'Eduardo'
+           ,'Arce'
+           ,''
+           ,''
+           ,''
+           ,1
+           ,13
+           ,33
+           ,'Walker Martinez, 2283, La Florida'
+           ,'Masculino'
+           ,'05-10-1982'
+           ,'15363876-4'
+           ,'15363876-4'
+           ,1
+           ,0
+           ,'987220059'
+           ,''
+           ,0
+           ,''
+           ,'eduardo1982@gmail.com'
+           ,1
+           ,'11,15,16,17,303,301,33'
+           ,3)
+GO
+INSERT INTO [dbo].[PROF_PROFESOR]
+           ([RUT]
+           ,[NOMBRES]
+           ,[PRIMER_APELLIDO]
+           ,[SEGUNDO_APELLIDO]
+           ,[FOTOGRAFIA]
+           ,[CODIGO]
+           ,[PAI_ID]
+           ,[REG_ID]
+           ,[COM_ID]
+           ,[DIRECCION]
+           ,[SEXO]
+           ,[FECHA_NACIMIENTO]
+           ,[NOMBRE_USUARIO]
+           ,[PASSWORD]
+           ,[ACTIVO]
+           ,[ELIMINADO]
+           ,[TELEFONOS_CONTACTO]
+           ,[BANCO]
+           ,[TIPO_CUENTA]
+           ,[NUMERO_CUENTA]
+           ,[EMAIL]
+           ,[NOD_ID]
+           ,[COM_ID_ASIGNADA]
+           ,[ROL_ID])
+     VALUES
+           ('17609581-4'
+           ,'Michelle'
+           ,'Fernandez'
+           ,''
+           ,''
+           ,''
+           ,1
+           ,13
+           ,33
+           ,'Walker Martinez, 2283, La Florida'
+           ,'Femenino'
+           ,'05-10-1982'
+           ,'17609581-4'
+           ,'17609581-4'
+           ,1
+           ,0
+           ,'966133571'
+           ,''
+           ,0
+           ,''
+           ,'coordinacion@sinalitas.cl'
+           ,1
+           ,'*'
+           ,2)
+GO
+

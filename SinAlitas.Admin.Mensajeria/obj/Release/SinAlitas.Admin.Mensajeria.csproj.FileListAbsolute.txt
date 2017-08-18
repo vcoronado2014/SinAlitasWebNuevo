@@ -1,0 +1,15 @@
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Mensajeria\bin\Release\SinAlitas.Admin.Mensajeria.dll
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Mensajeria\bin\Release\SinAlitas.Admin.Mensajeria.pdb
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Mensajeria\bin\Release\SinAlitas.Admin.Entidad.dll
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Mensajeria\bin\Release\SinAlitas.Admin.Negocio.dll
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Mensajeria\bin\Release\VCFramework.Negocio.Factory.dll
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Mensajeria\bin\Release\SinAlitas.Admin.Entidad.pdb
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Mensajeria\bin\Release\SinAlitas.Admin.Negocio.pdb
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Mensajeria\obj\Release\SinAlitas.Admin.Mensajeria.csprojResolveAssemblyReference.cache
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Mensajeria\obj\Release\SinAlitas.Admin.Mensajeria.dll
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Mensajeria\obj\Release\SinAlitas.Admin.Mensajeria.pdb
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Mensajeria\bin\Release\RestSharp.dll
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Mensajeria\bin\Release\Twilio.Api.dll
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Mensajeria\bin\Release\RestSharp.xml
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Mensajeria\bin\Release\Twilio.Api.pdb
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Mensajeria\bin\Release\Twilio.Api.xml

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="MSUsuarioLunConectionString-Web.config Connection String" description="MSUsuarioLunConectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=NTBK-VCORONADO;Initial Catalog=BDSinAlitas;Persist Security Info=True;User ID=sa;Password=co2008" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\SinAlitas\.Admin\.Web\\GCMServer\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MSUsuarioLunConectionString']/@connectionString" />
+  </parameter>
+</parameters>

@@ -1,0 +1,19 @@
+﻿.encabezado-nav-bar{
+    background-color: aquamarine;
+    margin-bottom:0;
+}
+.padding-3-em{
+    padding-top:3em;
+}
+.paddin-top-1{
+    padding-top:1em;
+}
+.padding-bottom-0{
+    padding-bottom:0;
+}
+.margin-bottom-0{
+    margin-bottom:0;
+}
+.text-box{
+    margin-left:0.4em;
+}

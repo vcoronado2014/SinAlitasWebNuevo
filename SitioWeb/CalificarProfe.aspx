@@ -1,0 +1,112 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="CalificarProfe.aspx.cs" Inherits="CalificarProfe" %>
+
+<%@ Register Assembly="DevExpress.Web.v15.2, Version=15.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+
+<%@ Register src="CONTROLES/MensajeBoostrap.ascx" tagname="MensajeBoostrap" tagprefix="uc1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="description" content="." />
+    <meta name="keywords" content="HTML, CSS, JS, JavaScript, framework, metro, front-end, frontend, web development" />
+    <meta name="author" content="Victor Coronado" />
+    <title>Calificar</title>
+    <link rel="shortcut icon" href="images/IconoMiFamilia.png" />
+    <!-- Bootstrap Core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- MetisMenu CSS -->
+    <link href="../vendor/metisMenu/metisMenu.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link href="../dist/css/sb-admin-2.css" rel="stylesheet" />
+
+    <!-- Custom Fonts -->
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/estilocliente.css" rel="stylesheet" type="text/css" />
+    <link href="css/coro.css" rel="stylesheet" type="text/css" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <form id="form1" runat="server">
+     <div id="wrapper">
+         <ul class="chat">
+             <li class="left clearfix">
+                 <span class="chat-img pull-left">
+                     <i class="fa fa-3x fa-info-circle img-circle" style="margin-left: 10px;"></i>
+                 </span>
+                 <div class="chat-body clearfix font-pequeno">
+                     <p class="text-justify" style="padding-right: 15px;">
+                         Estimado Cliente, usted puede calificar al profesor 
+                         <asp:Literal ID="litNombre" runat="server"></asp:Literal>
+                          seleccione la calificación y presione Guardar, si desea cancelar sólo cierre la ventana.
+                     </p>
+
+                 </div>
+             </li>
+         </ul>
+         <dx:ASPxCallbackPanel ID="pnlPrincipal" ClientInstanceName="pnlPrincipal" runat="server" Width="100%" OnCallback="pnlPrincipal_Callback">
+             <PanelCollection>
+                 <dx:PanelContent runat="server">
+                     <div class="col-xs-12" style="align-content: center; vertical-align: middle; text-align: center;">
+                         <div class="col-xs-3">&nbsp;</div>
+                         <div class="col-xs-6">
+                             <dx:ASPxRatingControl ID="ASPxRatingControl1" runat="server" Theme="Mulberry" FillPrecision="Exact" ItemHeight="25" ItemWidth="25">
+                             </dx:ASPxRatingControl>
+                         </div>
+                         <div class="col-xs-3"></div>
+
+                     </div>
+                     <div class="col-xs-12 paddin-top-1">
+                         <div class="col-xs-12">
+                             Ingrese un comentario si desea hacerlo.
+                         </div>
+                         <div class="col-xs-12">
+                             <dx:ASPxMemo ID="memObservaciones" runat="server" Height="100px" Width="100%"></dx:ASPxMemo>
+                         </div>
+                    </div>
+                     <div class="col-xs-12 paddin-top-1 font-pequeno">
+                         <div class="col-xs-12 col-md-4">
+                             <i class="fa fa-2x fa-check"></i><span>Clases Finalizadas Evaluadas: <asp:Literal ID="litEvaluadasFinalizadas" runat="server"></asp:Literal></span>
+                         </div>
+                         <div class="col-xs-12 col-md-4">
+                            <i class="fa fa-2x fa-check-circle"> </i><span> Clases Evaluadas con 5 estrellas: <asp:Literal ID="litEvaluadasCincoEstrellas" runat="server"></asp:Literal></span> 
+                         </div>
+                         <div class="col-xs-12 col-md-4">
+                            <i class="fa fa-2x fa-calculator">  </i> <span> Promedio de Evaluación: <asp:Literal ID="litPromedioEvaluacion" runat="server"></asp:Literal></span>
+                         </div>
+                     </div>
+                     <!-- mensaje -->
+                     <div class="col-xs-12">
+
+                         <uc1:MensajeBoostrap ID="MensajeBoostrap1" runat="server" />
+
+                     </div>
+                    <div class="col-xs-12 col-md-6 pull-right paddin-top-1">
+
+                        <dx:ASPxButton ID="btnGuardar" runat="server" Text="Guardar" Width="100%" Native="true" CssClass="btn btn-primary" AutoPostBack="False">
+                            <ClientSideEvents Click="function(s, e) {
+	pnlPrincipal.PerformCallback('guardar');
+}" />
+                        </dx:ASPxButton>
+
+                    </div>
+                 </dx:PanelContent>
+             </PanelCollection>
+         </dx:ASPxCallbackPanel>
+
+    </div>
+    </form>
+</body>
+</html>
+

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{53AAF2DA-EDC2-41BC-B15C-973D009D57CF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SinAlitas.Admin.Negocio</RootNamespace>
+    <AssemblyName>SinAlitas.Admin.Negocio</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="VCFramework.Negocio.Factory">
+      <HintPath>..\assemblies\VCFramework.Negocio.Factory.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AceptaCondiciones.cs" />
+    <Compile Include="AlertasSupervisor.cs" />
+    <Compile Include="CalificacionesProfesor.cs" />
+    <Compile Include="CancelacionClase.cs" />
+    <Compile Include="Cliente.cs" />
+    <Compile Include="CrudProfesores.cs" />
+    <Compile Include="Cupo.cs" />
+    <Compile Include="EnvoltorioClientePackProducto.cs" />
+    <Compile Include="EnvoltorioProfesorCupo.cs" />
+    <Compile Include="FichaAlumno.cs" />
+    <Compile Include="FichaPack.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="HistorialMovimiento.cs" />
+    <Compile Include="MatrizSegmentos.cs" />
+    <Compile Include="NotificacionCliente.cs" />
+    <Compile Include="ObservacionesProfesor.cs" />
+    <Compile Include="PlanillaProfesor.cs" />
+    <Compile Include="Producto.cs" />
+    <Compile Include="ProductoCodigo.cs" />
+    <Compile Include="Profesor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReporteClases.cs" />
+    <Compile Include="SegmentoHorario.cs" />
+    <Compile Include="TareasProfesor.cs" />
+    <Compile Include="Territorio.cs" />
+    <Compile Include="Utiles.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SinAlitas.Admin.Entidad\SinAlitas.Admin.Entidad.csproj">
+      <Project>{338eaf43-fba3-4e15-989c-13907746ea2d}</Project>
+      <Name>SinAlitas.Admin.Entidad</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="QUERYS_10092016.sql" />
+    <Content Include="QUERYS_19082016.sql" />
+    <Content Include="QUERYS_25082016.SQL" />
+    <Content Include="QUERY_26102016.sql" />
+    <Content Include="SCRIPT_10112016.sql" />
+    <Content Include="SCRIPT_20102016.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

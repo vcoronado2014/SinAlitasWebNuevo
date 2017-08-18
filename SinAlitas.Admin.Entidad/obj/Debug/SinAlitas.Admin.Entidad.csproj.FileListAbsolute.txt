@@ -1,0 +1,8 @@
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Web\SinAlitas.Admin.Entidad\bin\Debug\SinAlitas.Admin.Entidad.dll
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Web\SinAlitas.Admin.Entidad\bin\Debug\SinAlitas.Admin.Entidad.pdb
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Web\SinAlitas.Admin.Entidad\obj\Debug\SinAlitas.Admin.Entidad.dll
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Web\SinAlitas.Admin.Entidad\obj\Debug\SinAlitas.Admin.Entidad.pdb
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Entidad\bin\Debug\SinAlitas.Admin.Entidad.dll
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Entidad\bin\Debug\SinAlitas.Admin.Entidad.pdb
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Entidad\obj\Debug\SinAlitas.Admin.Entidad.dll
+C:\SinAlitas.Admin.Web\SinAlitas.Admin.Entidad\obj\Debug\SinAlitas.Admin.Entidad.pdb

@@ -1,0 +1,118 @@
+<root>
+  <error>
+    <Fecha>2016-11-03 15:57</Fecha>
+    <Detalle>
+    </Detalle>
+    <Id>1</Id>
+  </error>
+  <error>
+    <Fecha>2016-11-03 15:51</Fecha>
+    <Detalle>Authenticate</Detalle>
+    <Id>2</Id>
+  </error>
+  <error>
+    <Fecha>2016-11-03 15:12</Fecha>
+    <Detalle>Error al enviar correo.</Detalle>
+    <Id>3</Id>
+  </error>
+  <error>
+    <Fecha>2016-11-03 15:22</Fecha>
+    <Detalle>
+    </Detalle>
+    <Id>4</Id>
+  </error>
+  <error>
+    <Fecha>2016-11-03 15:28</Fecha>
+    <Detalle>Authenticate</Detalle>
+    <Id>5</Id>
+  </error>
+  <error>
+    <Fecha>2016-11-03 15:43</Fecha>
+    <Detalle>
+    </Detalle>
+    <Id>6</Id>
+  </error>
+  <error>
+    <Fecha>2016-11-03 17:53</Fecha>
+    <Detalle>
+    </Detalle>
+    <Id>7</Id>
+  </error>
+  <error>
+    <Fecha>2016-11-04 00:42</Fecha>
+    <Detalle>Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: Named Pipes Provider, error: 40 - No se pudo abrir una conexión con SQL Server)</Detalle>
+    <Id>8</Id>
+  </error>
+  <error>
+    <Fecha>2016-11-04 00:16</Fecha>
+    <Detalle>Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: Named Pipes Provider, error: 40 - No se pudo abrir una conexión con SQL Server)</Detalle>
+    <Id>9</Id>
+  </error>
+  <error>
+    <Fecha>2016-11-04 00:39</Fecha>
+    <Detalle>
+    </Detalle>
+    <Id>10</Id>
+  </error>
+  <error>
+    <Fecha>2016-11-04 00:39</Fecha>
+    <Detalle>The number +56978413250 is unverified. Trial accounts cannot send messages to unverified numbers; verify +56978413250 at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.</Detalle>
+    <Id>11</Id>
+  </error>
+  <error>
+    <Fecha>2016-11-04 00:41</Fecha>
+    <Detalle>
+    </Detalle>
+    <Id>12</Id>
+  </error>
+  <error>
+    <Fecha>2016-11-04 21:35</Fecha>
+    <Detalle>prueba</Detalle>
+    <Id>13</Id>
+  </error>
+  <error>
+    <Fecha>2016-11-08 23:26</Fecha>
+    <Detalle>Subproceso anulado.</Detalle>
+    <Id>14</Id>
+  </error>
+  <error>
+    <Fecha>2016-11-09 23:13</Fecha>
+    <Detalle>Subproceso anulado.</Detalle>
+    <Id>15</Id>
+  </error>
+  <error>
+    <Fecha>2016-11-12 23:38</Fecha>
+    <Detalle>Subproceso anulado.</Detalle>
+    <Id>16</Id>
+  </error>
+  <error>
+    <Fecha>2016-11-13 03:43</Fecha>
+    <Detalle>Subproceso anulado.</Detalle>
+    <Id>17</Id>
+  </error>
+  <error>
+    <Fecha>2016-11-16 11:57</Fecha>
+    <Detalle>Subproceso anulado.</Detalle>
+    <Id>18</Id>
+  </error>
+  <error>
+    <Fecha>2016-11-26 03:39</Fecha>
+    <Detalle>Subproceso anulado.</Detalle>
+    <Id>19</Id>
+  </error>
+  <error>
+    <Fecha>2016-11-26 03:46</Fecha>
+    <Detalle>Subproceso anulado.</Detalle>
+    <Id>20</Id>
+  </error>
+  <error>
+    <Fecha>2016-11-30 01:06</Fecha>
+    <Detalle>Subproceso anulado.</Detalle>
+    <Id>21</Id>
+  </error>
+  <error>
+    <Fecha>2016-12-12 23:38</Fecha>
+    <Detalle>Subproceso anulado.</Detalle>
+    <Id>22</Id>
+  </error>
+</root>

@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SitioWeb", "SitioWeb\", "{8FE55F43-1222-47FF-964F-5DCB01101193}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{338eaf43-fba3-4e15-989c-13907746ea2d}|SinAlitas.Admin.Entidad.dll;{53aaf2da-edc2-41bc-b15c-973d009d57cf}|SinAlitas.Admin.Negocio.dll;{3d8c2acf-bf49-45a6-b7c4-e62a3fbe79a7}|SinAlitas.Admin.Mensajeria.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_22543"
+		Debug.AspNetCompiler.PhysicalPath = "SitioWeb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_22543\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_22543"
+		Release.AspNetCompiler.PhysicalPath = "SitioWeb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_22543\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "22543"
+		SlnRelativePath = "SitioWeb\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinAlitas.Admin.Entidad", "SinAlitas.Admin.Entidad\SinAlitas.Admin.Entidad.csproj", "{338EAF43-FBA3-4E15-989C-13907746EA2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinAlitas.Admin.Negocio", "SinAlitas.Admin.Negocio\SinAlitas.Admin.Negocio.csproj", "{53AAF2DA-EDC2-41BC-B15C-973D009D57CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GCMServer", "GCMServer\GCMServer.csproj", "{CA35763D-7B62-40B1-BD29-2DC1088158F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinAlitas.Admin.Mensajeria", "SinAlitas.Admin.Mensajeria\SinAlitas.Admin.Mensajeria.csproj", "{3D8C2ACF-BF49-45A6-B7C4-E62A3FBE79A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FE55F43-1222-47FF-964F-5DCB01101193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FE55F43-1222-47FF-964F-5DCB01101193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FE55F43-1222-47FF-964F-5DCB01101193}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FE55F43-1222-47FF-964F-5DCB01101193}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{338EAF43-FBA3-4E15-989C-13907746EA2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{338EAF43-FBA3-4E15-989C-13907746EA2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{338EAF43-FBA3-4E15-989C-13907746EA2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{338EAF43-FBA3-4E15-989C-13907746EA2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53AAF2DA-EDC2-41BC-B15C-973D009D57CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53AAF2DA-EDC2-41BC-B15C-973D009D57CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53AAF2DA-EDC2-41BC-B15C-973D009D57CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53AAF2DA-EDC2-41BC-B15C-973D009D57CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA35763D-7B62-40B1-BD29-2DC1088158F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA35763D-7B62-40B1-BD29-2DC1088158F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA35763D-7B62-40B1-BD29-2DC1088158F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA35763D-7B62-40B1-BD29-2DC1088158F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D8C2ACF-BF49-45A6-B7C4-E62A3FBE79A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D8C2ACF-BF49-45A6-B7C4-E62A3FBE79A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D8C2ACF-BF49-45A6-B7C4-E62A3FBE79A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D8C2ACF-BF49-45A6-B7C4-E62A3FBE79A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
